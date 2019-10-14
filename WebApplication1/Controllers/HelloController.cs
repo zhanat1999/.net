@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace red_resume.Controllers
+namespace WebApplication1.Controllers
 {
     public class HelloController : Controller
     {
@@ -12,5 +12,7 @@ namespace red_resume.Controllers
         {
             return View();
         }
+
+       
     }
 }

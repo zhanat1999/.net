@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\21879\\.nuget\\packages\\": {},
+    "C:\\Users\\21552\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\21879\\source\\repos\\red-resume\\red-resume\\red-resume.csproj",
-      "projectName": "red-resume",
-      "projectPath": "C:\\Users\\21879\\source\\repos\\red-resume\\red-resume\\red-resume.csproj",
-      "packagesPath": "C:\\Users\\21879\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\21879\\source\\repos\\red-resume\\red-resume\\obj\\",
+      "projectUniqueName": "c:\\users\\21552\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "c:\\users\\21552\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\21552\\.nuget\\packages\\",
+      "outputPath": "c:\\users\\21552\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\21879\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\21552\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
