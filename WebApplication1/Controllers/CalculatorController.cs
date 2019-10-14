@@ -1,15 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace red_resume.Controllers
-{
-    [Route("[controller]/[action]")]
+namespace WebApplication1.Controllers {
+  [Route("[controller]/[action]")]
     public class CalculatorController : Controller
     {
-
+        
 
         [Route("{firstNumber:int}/{secondNumber:int}")]
         public IActionResult Sum(int firstNumber, int secondNumber)
@@ -23,7 +22,7 @@ namespace red_resume.Controllers
             return View("Result");
         }
 
-        [Route("{firstNumber:int}/{secondNumber:int:min(1)}")]
+        [Route("{firstNumber:int}/{secondNumber:int}")]
         public IActionResult Divide(int firstNumber, int secondNumber)
         {
             ViewData["action"] = RouteData.Values["action"].ToString();
